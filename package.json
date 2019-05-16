@@ -1,13 +1,10 @@
 {
-  "name": "semantic-release",
+  "name": "semantic-release-mailaneel",
   "description": "Automated semver compliant package publishing",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "author": "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
   "bin": {
     "semantic-release": "bin/semantic-release.js"
-  },
-  "bugs": {
-    "url": "https://github.com/semantic-release/semantic-release/issues"
   },
   "config": {
     "commitizen": {
@@ -78,7 +75,6 @@
     "index.js",
     "cli.js"
   ],
-  "homepage": "https://github.com/semantic-release/semantic-release#readme",
   "keywords": [
     "author",
     "automation",
@@ -111,10 +107,6 @@
   },
   "publishConfig": {
     "tag": "next"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/semantic-release/semantic-release.git"
   },
   "scripts": {
     "cm": "git-cz",
